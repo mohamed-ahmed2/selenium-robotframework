@@ -25,3 +25,4 @@ signup
     select yes
     click on agree
     click on continue
+    close 
