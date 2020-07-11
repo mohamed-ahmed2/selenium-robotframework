@@ -102,3 +102,20 @@ click on continue
 close
     sleep    3
     close browser
+
+click login from home
+    click element    ${my_account}
+    wait until element is visible    ${login}
+    click element    ${login}
+    click element   ${advanced}
+    click element    ${proceed}
+
+
+enter email login
+    wait until element is visible    ${email_textbox_login}
+    input text    ${email_textbox_login}    ${email}
+enter password login
+    wait until element is visible    ${password_textbox_lgoin}
+    input text    ${password_textbox_lgoin}     ${password}
+click login from login
+    click element    ${login_buton_login}

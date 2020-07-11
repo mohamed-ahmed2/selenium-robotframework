@@ -25,4 +25,13 @@ signup
     select yes
     click on agree
     click on continue
-    close 
+    close
+
+login
+    [Tags]    login
+    open chrome
+    click login from home
+    enter email login
+    enter password login
+    click login from login
+    close

@@ -1,7 +1,7 @@
 #home page
 my_account = "xpath://span[contains(text(),'My Account')]"
 register = "xpath://a[contains(text(),'Register')]"
-
+login = "xpath://a[contains(text(),'Login')]"
 
 #signup page
 firstname_textbox = "xpath://input[@id='input-firstname']"
@@ -21,3 +21,9 @@ passwordconfirm_textbox = "id:input-confirm"
 radio_button = "xpath://input[@type='radio' and @name='newsletter' and @value='1']"
 agree_checkbox = "xpath://input[@name='agree']"
 continue_button = "xpath://input[@class='btn btn-primary']"
+
+
+#login page
+email_textbox_login = "//input[@id='input-email']"
+password_textbox_lgoin = "//input[@id='input-password']"
+login_buton_login = "//input[@class='btn btn-primary']"
