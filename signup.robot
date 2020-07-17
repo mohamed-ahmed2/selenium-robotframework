@@ -1,6 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary  run_on_failure=NOTHING
 Resource    Actions.robot
+Library     DataDriver
 
 *** Test Cases ***
 signup
@@ -30,7 +31,7 @@ signup
 login
     [Tags]    login
     open chrome
-    click login from home
+    navigate to login from home
     enter email login
     enter password login
     click login from login

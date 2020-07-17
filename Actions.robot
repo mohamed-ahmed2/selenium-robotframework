@@ -103,7 +103,8 @@ close
     sleep    3
     close browser
 
-click login from home
+navigate to login from home
+    open chrome
     click element    ${my_account}
     wait until element is visible    ${login}
     click element    ${login}
@@ -112,10 +113,13 @@ click login from home
 
 
 enter email login
+    [Arguments]    ${email_value}
     wait until element is visible    ${email_textbox_login}
-    input text    ${email_textbox_login}    ${email}
+    input text    ${email_textbox_login}    ${email_value}
 enter password login
+    [Arguments]    ${password_value}
     wait until element is visible    ${password_textbox_lgoin}
-    input text    ${password_textbox_lgoin}     ${password}
+    input text    ${password_textbox_lgoin}     ${password_value}
 click login from login
     click element    ${login_buton_login}
+
