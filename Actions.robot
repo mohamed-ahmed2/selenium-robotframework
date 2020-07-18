@@ -122,4 +122,6 @@ enter password login
     input text    ${password_textbox_lgoin}     ${password_value}
 click login from login
     click element    ${login_buton_login}
+click on tablets from home
+    click element    ${tablets_link}
 
