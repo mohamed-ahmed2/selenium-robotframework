@@ -28,3 +28,5 @@ email_textbox_login = "//input[@id='input-email']"
 password_textbox_lgoin = "//input[@id='input-password']"
 login_buton_login = "//input[@class='btn btn-primary']"
 invalid_login_message ="xpath://*[contains(text(),'Warning: No match for E-Mail Address and/or Password.')]"
+
+tablets_link ="xpath://a[contains(text(),'Tablets')]"
