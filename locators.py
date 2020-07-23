@@ -30,3 +30,5 @@ login_buton_login = "//input[@class='btn btn-primary']"
 invalid_login_message ="xpath://*[contains(text(),'Warning: No match for E-Mail Address and/or Password.')]"
 
 tablets_link ="xpath://a[contains(text(),'Tablets')]"
+desktops_link = "xpath://a[@class='dropdown-toggle'][contains(text(),'Desktops')]"
+show_desktops_link = "xpath://a[contains(text(),'Show All Desktops')]"

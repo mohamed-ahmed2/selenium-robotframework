@@ -124,4 +124,6 @@ click login from login
     click element    ${login_buton_login}
 click on tablets from home
     click element    ${tablets_link}
-
+click on desktops from home
+    mouse down    ${desktops_link}
+    click element    ${show_desktops_link}
