@@ -32,3 +32,6 @@ invalid_login_message ="xpath://*[contains(text(),'Warning: No match for E-Mail 
 tablets_link ="xpath://a[contains(text(),'Tablets')]"
 desktops_link = "xpath://a[@class='dropdown-toggle'][contains(text(),'Desktops')]"
 show_desktops_link = "xpath://a[contains(text(),'Show All Desktops')]"
+
+components_link = "xpath://a[@class='dropdown-toggle'][contains(text(),'Components')]"
+show_all_components = "xpath://a[contains(text(),'Show All Components')]"

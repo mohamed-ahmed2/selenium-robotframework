@@ -1,0 +1,5 @@
+monitors_link = "xpath://div[@class='col-sm-3']//a[contains(text(),'Monitors')]"
+monitors_page_title = "Monitors"
+scrolling_point = "xpath://div[@class='col-sm-6 text-right']"
+add_to_cart = "xpath://a[contains(text(),'Apple Cinema 30')]//following::div[1]/button[1]"
+add_to_cart_title = "Apple Cinema 30"

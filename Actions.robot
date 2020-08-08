@@ -127,3 +127,7 @@ click on tablets from home
 click on desktops from home
     mouse down    ${desktops_link}
     click element    ${show_desktops_link}
+click on components from home
+    mouse down      ${components_link}
+    wait until element is visible    ${show_all_components}
+    click element    ${show_all_components}
